@@ -1,12 +1,12 @@
 # Interview Preparation Roadmap
 
-**7 YOE React Native Developer → Interview-Ready**
-
+React Native Developer
+This plan not include basic JS , TS and react ecosystems.
 ---
 
 ## About This Plan
 
-I'm a React Native developer with 7 years of experience. This repo tracks my personal interview preparation plan.
+I'm a React Native developer with 7+ years of experience. This repo tracks my personal interview preparation plan.
 
 I'm mainly targeting **frontend roles**, want **strong, defensible full-stack knowledge** as well and want to keep my **React Native expertise as my strongest asset**, since that's where most of my real experience is. I'm also building an **on-device LLM project** to showcase as a differentiator.
 
@@ -66,7 +66,7 @@ This isn't a generic prep plan — it's sequenced around what I already know, wh
 - Mock: JS/React fundamentals, rapid-fire
 - DSA mock round(s)
 - LLM capstone walkthrough — architecture + decisions
-- Resume review + behavioral / "why full-stack now" prep
+- Resume review + behavioral
 
 ---
 
