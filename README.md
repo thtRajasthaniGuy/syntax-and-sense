@@ -1,8 +1,7 @@
 # Syntax & Sense
 
-> **Where syntax meets sense.**
 
-A living knowledge base for **React Native**, **React**, **JavaScript**, **TypeScript**, **Backend**, **System Design**, **AI/LLMs**, **DSA**, and **software engineering**.
+for **React Native**, **React**, **JavaScript**, **TypeScript**, **Backend**, **System Design**, **AI/LLMs**, **DSA**, and **software engineering**.
 
 This repository documents everything I'm learning throughout my journey as a software engineer—from interview preparation . Rather than collecting snippets or memorizing answers, the goal is to understand the **why** behind every concept and create notes that are practical, reusable, and easy to revisit.
 
