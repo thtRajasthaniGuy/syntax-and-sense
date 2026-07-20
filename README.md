@@ -1,81 +1,134 @@
-# Interview Preparation Roadmap
+# Syntax & Sense
 
-React Native Developer
-This plan not include basic JS , TS and react ecosystems.
----
+> **Where syntax meets sense.**
 
-## About This Plan
+A living knowledge base for **React Native**, **React**, **JavaScript**, **TypeScript**, **Backend**, **System Design**, **AI/LLMs**, **DSA**, and **software engineering**.
 
-I'm a React Native developer with 7+ years of experience. This repo tracks my personal interview preparation plan.
-
-I'm mainly targeting **frontend roles**, want **strong, defensible full-stack knowledge** as well and want to keep my **React Native expertise as my strongest asset**, since that's where most of my real experience is. I'm also building an **on-device LLM project** to showcase as a differentiator.
-
-This isn't a generic prep plan — it's sequenced around what I already know, what I need to relearn, and what I want to add.
+This repository documents everything I'm learning throughout my journey as a software engineer—from interview preparation . Rather than collecting snippets or memorizing answers, the goal is to understand the **why** behind every concept and create notes that are practical, reusable, and easy to revisit.
 
 ---
 
-## The 7 Phases
+## 🎯 Purpose
 
-### Phase 1 — Mobile System Design Core
+This repository is my second brain for software engineering.
 
-- Phase 0: Framework + Step-1 checkpoint ("Design Twitter" requirements)
-- Phase 1: RN building-blocks drills (state, storage, networking, pagination, offline, performance, delivery)
-- Phase 2: 6 mini designs (image gallery, typing indicator, autocomplete, like button, resumable upload, badge count)
-- Phase 3: Full case studies — News Feed (×2), Chat, Pagination Library, Hotel Reservation
+It contains:
 
-### Phase 2 — Hard System Design + Mocks
+* 📱 React Native engineering
+* ⚛️ React & modern frontend
+* 🟨 JavaScript & TypeScript
+* 🟢 Backend development
+* 🏗️ System Design
+* 🤖 AI & On-device LLMs
+* 🧠 Data Structures & Algorithms
+* 💼 Interview Preparation
+* 📖 Engineering Notes
 
-- Phase 4: Hard deep dives (Google Drive, Stock Trading, YouTube + cross-cutting scale topics)
-- 2–3 full 45-minute mock interviews, cold
+Every note is written with one goal in mind:
 
-### Phase 3 — Full-Stack Deep Track
-
-- Python for backend (async/await, type hints)
-- FastAPI fundamentals (routing, Pydantic, dependency injection)
-- PostgreSQL + SQLAlchemy + Alembic
-- Integration checkpoint — build a CRUD API + auth, solo
-- React.js vs React Native (routing, SEO, Tailwind)
-- TanStack Query + React Hook Form
-- Full-stack integration (CORS, typed API layer)
-- Docker + docker-compose
-- Cloud fundamentals (Azure core services + CI/CD)
-- System design for full-stack engineers
-
-### Phase 4 — JS Engine + Runtime
-
-- Module 1: JS engine, execution context, closures, memory/GC
-- Module 2: Event loop, microtasks/macrotasks, promises, async/await
-
-### Phase 5 — React Internals + Browser Essentials
-
-- Module 6: Fiber, reconciliation, hooks internals, Suspense
-- Module 3 (fast pass): Rendering pipeline, caching, storage APIs
-
-### Phase 6 — On-Device LLM Capstone Sprint
-
-- Foundations: tokens, quantization, model sizing
-- `llama.rn` architecture: JSI bridge, streaming, GPU/CPU tradeoffs
-- Prompting + structured output (grammars for reliable JSON)
-- Build the capstone (e.g. offline notes assistant) end-to-end in React Native
-- Stretch goals (optional, only if ahead of schedule): RAG, LoRA adapter
-
-### Phase 7 — Interview Prep + Mocks
-
-- Mock: RN system design (fresh prompts)
-- Mock: full-stack project
-- Mock: JS/React fundamentals, rapid-fire
-- DSA mock round(s)
-- LLM capstone walkthrough — architecture + decisions
-- Resume review + behavioral
+> **Understand deeply. Explain simply. Build confidently.**
 
 ---
 
-## Parallel Background Track — DSA
+## 📚 Repository Structure
 
-Runs alongside every phase above. 2–3 problems/week, focused on arrays, strings, recursion, sliding window, two pointers, heaps — the patterns that show up most in frontend interviews.
+```text
+.
+├── react-native/
+├── react/
+├── javascript/
+├── typescript/
+├── backend/
+├── frontend/
+├── system-design/
+├── dsa/
+├── ai/
+├── architecture/
+├── interview-preparation/
+├── roadmaps/
+├── resources/
+└── docs/
+```
+
+As the repository grows, each topic will include:
+
+* Fundamentals
+* Deep dives
+* Common interview questions
+* Best practices
+* Real-world examples
+* Personal notes
+* Useful resources
 
 ---
 
-## Note for Anyone Else Using This
+## 🚀 Current Focus
 
-This plan is built around **my** specific background (7 years RN) and **my** goals (frontend-first, strong full-stack, RN as core strength, LLM project as a differentiator). If you're using this as a template, adjust the phases and pacing to match your own experience and target roles rather than following it exactly as-is.
+I'm currently focusing on:
+
+* React Native Architecture
+* Mobile System Design
+* Frontend System Design
+* Full-stack Engineering
+* AI & On-device LLMs
+* JavaScript & React Internals
+* Interview Preparation
+
+---
+
+## 🗺️ Roadmaps
+
+This repository includes structured learning roadmaps for various topics.
+
+Current roadmap:
+
+* React Native Interview Preparation *(In Progress)*
+
+More roadmaps will be added over time.
+
+---
+
+## 🎯 Who is this repository for?
+
+This repository may be useful if you're:
+
+* A React Native Developer
+* A Frontend Engineer
+* A Mobile Developer
+* Preparing for Software Engineering interviews
+* Learning Mobile System Design
+* Interested in AI and LLM applications
+* Looking for practical engineering notes instead of scattered bookmarks
+
+---
+
+## ⭐ Topics Covered
+
+* React Native
+* React
+* JavaScript
+* TypeScript
+* Python
+* FastAPI
+* SQL & PostgreSQL
+* System Design
+* Mobile System Design
+* Design Patterns
+* DSA
+* AI & LLMs
+* Software Architecture
+* Performance Optimization
+* Engineering Best Practices
+* Interview Preparation
+
+---
+
+## 📌 Disclaimer
+
+These notes reflect my personal understanding and learning journey. They will continue to evolve as I gain more experience, discover better approaches, and learn from the engineering community.
+
+If you notice something incorrect or have a better approach, feel free to open an issue or submit a pull request.
+
+---
+
+> **"Great engineers don't just write code—they understand the systems behind it."**
