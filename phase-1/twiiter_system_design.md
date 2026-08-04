@@ -8,22 +8,29 @@ a twitter clone app
 
 # functional requirement
 
-        * user should login/signup the app
+        * user can login/signup
         * user can see the twiits
-        * user can search the by keywords , which show the peoples , topic something releted to keywords.
         * user can twiit from their account.
+        * user can follow another user accounts.
+        * user can saerch other user accounts , based on text match
+            find the accounts or twiits.
 
 # non functional requirements
 
-# perfomance
+    * app loading time should under 3 sec.
+    * twitts load instantly under 3 sec.
+    * feed loading latency must stay low and consistent regardless of accounts followes.
+    * offilie stortage suuport. for load the content fast .
+    * for media support we use CDN so it will load the media fast. and in unreliable area of internet we can already loaded media in cache storege so we don't have to download the media again.
+    * for loading media we use adaptive loading approch.
+    * for latest twiits pull to refresh or background update , background update only work when app is active.
 
-    * for home feed we can use hybrid fan our of read and fan out of write approch. for exmaple if some user have 10k followers when they twitss we can use fan out of write approch so it will no make server in load. and some user have lets around 1 million followers for tham we can use fan out of read approch.
-    * offline app support -> when user internet is slow or don't have any network we can show the loaded twiits which are gonna saved in our offline storage.
-    *
+# out of scope
+
+    * dm's -> chat is sepetate subsytem , which requited real time chat socket.
 
 # whom are we building
 
-    qesutions we can ask to interviewer
     daily active user - around 1 million
     mvp or final product. beacuse based on that we ready base structures.
 
@@ -37,6 +44,7 @@ a twitter clone app
 
     the grok ai funtionalty.
     premium funcatinalty
+    we wanna focus on homefeed funtionalty.
 
 # 2 - API design
 
